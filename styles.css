@@ -26,7 +26,11 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 150%;
-  background: border-box;
+  background: linear-gradient(100deg, rgba(0,0,0,.2), rgba(0,0,0,.2));
+  background-color: rgba(43,114,165,.29);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 26px 0 rgba(0,0,0,.2);
+}
 }
 
 .texto::placeholder {
