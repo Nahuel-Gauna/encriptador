@@ -27,8 +27,7 @@
   font-size: 32px;
   line-height: 150%;
   background: linear-gradient(100deg, rgba(0,0,0,.2), rgba(0,0,0,.2));
-  background-color: rgba(43,114,165,.29);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(1px);
   box-shadow: 0 10px 26px 0 rgba(0,0,0,.2);
 }
 }
@@ -156,7 +155,8 @@
   font-size: 24px;
   line-height: 120%;
   text-align: center;
-  color: #343a40;
+  margin: 40px;
+  color: #efefef;;
 }
 
 .mensaje-encriptado p {
